@@ -1,0 +1,16 @@
+.wrapper {
+display: flex ;
+}
+
+.sidebar {
+flex: 1 1 30%;
+}
+
+.content {
+ flex: 1 1 70%;
+}
+
+nav ul {
+display: flex;
+justify-content : space-bteween;
+flex-direction : row;       or // flex-direction : column;    flex-direction : row-reverse; flex-direction : column-reverse;

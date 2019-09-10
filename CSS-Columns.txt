@@ -1,0 +1,30 @@
+HTML
+<h1> CSS Columns</h1>
+<div class= "columns"> 
+<p class="intro">Well, thats</p>
+<p>Well, thats what I call a lovely day.</p>
+
+.columns {
+   columns: 250px 3;     // 3 columns
+   columns: 1px dotted #ccc;
+}
+
+var expect = require("chai").expect;
+var tools = require("../lib/tools");
+
+   describe("printName(), function(){
+    it ("should print the last name first", function(){
+
+       var results= tools.printName({ first:Alex, last: "Banks"});
+        expect(results). to.equal("Banks, Alex");
+
+});
+}});
+
+e2e |--gulpfile.js
+    |--package.json
+    |--test
+       |--fixtures
+       |     |--index.html
+       |---specs
+            |---page-title.js
